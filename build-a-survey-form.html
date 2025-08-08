@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="TripleAStack.Dev’s personal skill growth feedback survey." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripleAStack.Dev Skill Growth Survey</title>
+</head>
+<body>
+  <h1 id="title">TripleAStack.Dev Skill Growth Survey</h1>
+  <p id="description">
+    Your growth matters! Help me understand your learning journey so I can keep improving the content and support.
+  </p>
+
+  <form id="survey-form">
+    <!-- Name -->
+    <label id="name-label" for="name">Name (Required):</label><br />
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Enter your name"
+      required
+    /><br /><br />
+
+    <!-- Email -->
+    <label id="email-label" for="email">Email (Required):</label><br />
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    /><br /><br />
+
+    <!-- Age / Number -->
+    <label id="number-label" for="number">Age (Optional):</label><br />
+    <input
+      type="number"
+      id="number"
+      name="number"
+      min="1"
+      max="120"
+      placeholder="Enter your age"
+    /><br /><br />
+
+    <!-- Dropdown -->
+    <label for="dropdown">Which skill area are you focusing on right now?</label><br />
+    <select id="dropdown" name="dropdown">
+      <option value="html-css">HTML & CSS</option>
+      <option value="javascript">JavaScript</option>
+      <option value="react">React</option>
+      <option value="backend">Backend Development</option>
+    </select><br /><br />
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend>How confident do you feel about your current skill level?</legend>
+      <label>
+        <input type="radio" name="confidence" value="high" required />
+        Very confident
+      </label><br />
+      <label>
+        <input type="radio" name="confidence" value="medium" />
+        Somewhat confident
+      </label><br />
+      <label>
+        <input type="radio" name="confidence" value="low" />
+        Still learning
+      </label>
+    </fieldset><br />
+
+    <!-- Checkboxes -->
+    <fieldset>
+      <legend>Which areas do you want to improve or learn next? (Select all that apply)</legend>
+      <label>
+        <input type="checkbox" name="improvements" value="algorithms" />
+        Algorithms & Data Structures
+      </label><br />
+      <label>
+        <input type="checkbox" name="improvements" value="testing" />
+        Testing & Debugging
+      </label><br />
+      <label>
+        <input type="checkbox" name="improvements" value="deployment" />
+        Deployment & DevOps
+      </label><br />
+      <label>
+        <input type="checkbox" name="improvements" value="soft-skills" />
+        Communication & Soft Skills
+      </label>
+    </fieldset><br />
+
+    <!-- Textarea -->
+    <label for="comments">Any challenges or tips you want to share about your learning journey?</label><br />
+    <textarea
+      id="comments"
+      name="comments"
+      placeholder="Share your experience or advice here..."
+    ></textarea><br /><br />
+
+    <!-- Submit Button -->
+    <button type="submit" id="submit">Submit My Feedback</button>
+  </form>
+</body>
+</html>
+
+
