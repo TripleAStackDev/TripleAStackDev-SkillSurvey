@@ -4,7 +4,7 @@ A clean HTML survey form built while learning forms and basic HTML on FreeCodeCa
 
 ## Live Demo
 
-[View the live survey here]https://tripleastackdev.github.io/TripleAStackDev-SkillSurvey/
+[View the live survey here](https://tripleastackdev.github.io/TripleAStackDev-SkillSurvey/)
 
 ## Project Overview
 
@@ -39,4 +39,4 @@ It includes fields for:
 
 ---
 
-Made with ❤️ by TripleAStack.Dev
+Made with 💪 by TripleAStack.Dev
